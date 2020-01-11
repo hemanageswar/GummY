@@ -3,7 +3,11 @@ package org.constuctorclass;
 import java.util.Scanner;
 
 public class ScannerClass {
+	private static void hai() {
+System.out.println("new program");
+	}
 	public static void main(String[] args) {
+		hai();
 		System.out.println("hai");
 		System.out.println("hello");
 		System.out.println("how are you");
