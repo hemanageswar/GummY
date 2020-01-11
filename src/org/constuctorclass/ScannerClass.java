@@ -3,7 +3,15 @@ package org.constuctorclass;
 import java.util.Scanner;
 
 public class ScannerClass {
+	private static void meth() {
+System.out.println("conflict1");
+	}
+	private static void met() {
+System.out.println("conflict2");
+	}
 	public static void main(String[] args) {
+		meth();
+		met();
 		System.out.println("hai");
 		System.out.println("hello");
 		System.out.println("how are you");
@@ -27,6 +35,6 @@ public class ScannerClass {
 			}
 			break;
 		}
-
+		System.out.println();
 	}
 }
