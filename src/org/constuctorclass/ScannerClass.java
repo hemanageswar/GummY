@@ -3,11 +3,23 @@ package org.constuctorclass;
 import java.util.Scanner;
 
 public class ScannerClass {
-	private static void hai() {
-System.out.println("new program");
+
+	private static void meth() {
+		System.out.println("conflict1");
 	}
+
+	private static void met() {
+		System.out.println("conflict2");
+	}
+
+	private static void hai() {
+		System.out.println("new program");
+	}
+
 	public static void main(String[] args) {
+		meth();
 		hai();
+		met();
 		System.out.println("hai");
 		System.out.println("hello");
 		System.out.println("how are you");
@@ -31,6 +43,6 @@ System.out.println("new program");
 			}
 			break;
 		}
-
+		System.out.println();
 	}
 }
