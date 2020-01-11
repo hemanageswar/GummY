@@ -3,6 +3,9 @@ package org.constuctorclass;
 import java.util.Scanner;
 
 public class ScannerClass {
+	private void met() {
+System.out.println("hello");
+	}
 	public static void main(String[] args) {
 
 		for (int i = 1; i <=5;i++) {
