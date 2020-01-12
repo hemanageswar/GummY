@@ -28,6 +28,7 @@ public class ScannerClass {
 		System.out.println("not good");
 		System.out.println("starting of scanner class");
 		System.out.println("no end here after");
+		System.out.println("from eclipse");
 		for (int i = 1; i <= 5; i++) {
 			Scanner s = new Scanner(System.in);
 			int a = s.nextInt();
