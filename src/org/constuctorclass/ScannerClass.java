@@ -26,7 +26,7 @@ public class ScannerClass {
 		System.out.println("i am fine");
 		System.out.println("how you doing");
 		System.out.println("not good");
-
+		System.out.println("starting of scanner class");
 		for (int i = 1; i <= 5; i++) {
 			Scanner s = new Scanner(System.in);
 			int a = s.nextInt();
