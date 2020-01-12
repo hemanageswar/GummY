@@ -3,7 +3,9 @@ package org.constuctorclass;
 import java.util.Scanner;
 
 public class ScannerClass {
-	
+	private void mau() {
+System.out.println("asdfhj");
+	}
 	public static void main(String[] args) {
 	
 		System.out.println("hai");
