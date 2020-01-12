@@ -3,11 +3,13 @@ package org.constuctorclass;
 import java.util.Scanner;
 
 public class ScannerClass {
-	private void mau() {
-System.out.println("asdfhj");
+	private static void mau() {
+		System.out.println("asdfhj");
 	}
+
 	public static void main(String[] args) {
-	
+		mau();
+		mau();
 		System.out.println("hai");
 		System.out.println("hello");
 		System.out.println("how are you");
